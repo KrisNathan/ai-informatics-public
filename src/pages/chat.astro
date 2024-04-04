@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import C from "../components/Chat.svelte";
+---
+
+<!doctype html>
+<html>
+  <body class="bg-stone-800 flex flex-col">
+    <!-- Topbar -->
+    <!-- <div class="absolute w-full py-3 px-10 flex bg-stone-800 text-white outline outline-1 outline-stone-700">
+      <div class="mr-auto my-auto text-lg">
+        Fun Online Shop Co. Ltd.
+      </div>
+      <div class="bg-purple-600 rounded-full py-3 px-6 hover:bg-purple-400">
+        Help
+      </div>
+    </div> -->
+
+    <C client:load />
+  </body>
+</html>
